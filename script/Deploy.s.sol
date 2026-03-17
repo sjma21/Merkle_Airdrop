@@ -13,7 +13,7 @@ contract Deploy is Script {
 
   MockToken token=new MockToken();
 
-  bytes32 root = 0xbca2149fc97cda4b84f4b3f59eefca0d8239f2c3eba310a50e8ad7f7446a01af;
+  bytes32 root = 0xeb516dbd7629ce3fe7bb23bb314e62981e9c4ca6565f57706ab5b65c38b66cd4;
 
   MerkleAirdrop airdrop=
    new MerkleAirdrop(root,address(token));
